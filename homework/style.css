@@ -1,0 +1,57 @@
+body {
+    color: #4A4A4A;
+    font-size: 10px;
+}
+
+#block1 {
+    background: linear-gradient(0deg, rgba(255, 133, 22, 0.5), rgba(255, 133, 22, 0.5));
+    color: #ffffff;
+}
+
+#block1 h1 {
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+#block2 h2, #block4 h2, #block6 h2 {
+    color: red;
+}
+
+/*======================================*/
+img {
+    max-width: 100%;
+}
+
+.table {
+    border-top: 5px solid orange;
+    border-collapse: collapse
+}
+
+.table td {
+    border: 1px solid orange;
+}
+
+.table th {
+    border: 1px solid orange;
+}
+
+.table tfoot {
+    font-weight: bold;
+}
+
+.table caption {
+    font-weight: bold;
+    text-align: left;
+}
+
+.table tr {
+    text-align: center;
+}
