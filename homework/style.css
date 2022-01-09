@@ -22,7 +22,10 @@ h2 {
 }
 
 #block2 h2, #block4 h2, #block6 h2 {
-    color: red;
+    color: #000000;
+}
+#block3 h2, #block5 h2 {
+    color: #ffffff;
 }
 
 /*======================================*/
