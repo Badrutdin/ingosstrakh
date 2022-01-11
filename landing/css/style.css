@@ -8,7 +8,7 @@ body {
 
 
 #main_content {
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     height: min-content;
     width: min-content;
 }
