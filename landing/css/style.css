@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&family=Open+Sans:wght@700&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Source+Sans+Pro&display=swap');
 
 body {
@@ -8,7 +9,7 @@ body {
 
 
 #main_content {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     height: min-content;
     width: min-content;
 }
@@ -25,8 +26,7 @@ body {
 }
 
 
-
-.block_1_header{
+.block_1 .header {
     height: min-content;
     position: absolute;
     top: 57px;
@@ -36,11 +36,8 @@ body {
     justify-content: space-between;
 }
 
-.logo_black_1-2-1{
-    color: white;
-}
 
-.logo_date {
+.block_1 .date {
     margin-top: 4px;
     margin-left: 1px;
     color: white;
@@ -48,7 +45,7 @@ body {
     font-size: 19px;
 }
 
-.human {
+.block_1 .human {
     position: absolute;
     top: 125px;
     left: 181px;
@@ -56,11 +53,11 @@ body {
     height: 948px;
 }
 
-.human img {
+.block_1 .human img {
     width: 100%;
 }
 
-.mobile {
+.block_1 .mobile {
     height: min-content;
     position: absolute;
     top: 232px;
@@ -71,11 +68,11 @@ body {
 
 }
 
-.ios {
+.block_1 .ios {
     width: 94px;
 }
 
-.ios span {
+.block_1 .ios span {
     font-family: Source Sans Pro;
     color: white;
     font-size: 24px;
@@ -85,12 +82,12 @@ body {
     display: inline-block;
 }
 
-.android {
+.block_1 .android {
     width: 99px;
     margin-top: 1px;
 }
 
-.android span {
+.block_1 .android span {
     font-family: Source Sans Pro;
     color: white;
     font-size: 24px;
@@ -100,7 +97,7 @@ body {
 
 }
 
-.block_1-central_text {
+.block_1 .central_text {
     top: 372px;
     left: 481px;
     position: absolute;
@@ -109,7 +106,7 @@ body {
 }
 
 
-.choose {
+.block_1 .choose {
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -119,7 +116,7 @@ body {
     letter-spacing: 0.845em;
 }
 
-.flutter {
+.block_1 .flutter {
     margin-top: -36px;
     margin-left: -16px;
     font-family: Fira Sans;
@@ -129,7 +126,7 @@ body {
     text-align: center;
 }
 
-.to_choose_both {
+.block_1 .to_choose_both {
     margin-top: -33px;
     margin-left: 6px;
     font-family: Open Sans;
@@ -140,7 +137,7 @@ body {
     letter-spacing: 0.37em;
 }
 
-.block_1 button{
+.block_1 button {
     position: absolute;
     left: 43.54%;
     right: 43.54%;
@@ -154,4 +151,398 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #4A4A4A;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }
+
+
+.block_2 .header {
+    height: min-content;
+    position: absolute;
+    top: 57px;
+    left: 130px;
+    width: 1181px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.block_2 .header button {
+    margin-top: -6px;
+    width: 146px;
+    height: 46px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4A4A4A;
+    background-color: white;
+}
+
+.block_2 .title {
+    margin-top: -6px;
+    margin-left: 32px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #4A4A4A;
+    text-transform: uppercase;
+}
+
+.block_2 .central_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 197px;
+    left: 370px;
+    width: 700px;
+    height: 156px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    /* or 126% */
+
+
+    color: #4A4A4A;
+}
+
+.block_2 .footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    top: 469px;
+    left: 216px;
+}
+
+.block_2 .footer div {
+    width: 341px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block_2 .s1 img {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 165px;
+}
+
+.block_2 .s2 img {
+    margin-top: -9px;
+    margin-left: -4px;
+    width: 165px;
+}
+
+.block_2 .s3 img {
+    margin-top: -16px;
+    margin-left: -6px;
+    width: 181px;
+}
+
+.block_2 .s1 span {
+    margin-top: 10px;
+    margin-left: -179px;
+    text-align: center;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.0366516px;
+    text-transform: uppercase;
+    color: #FF7E03;
+}
+
+.block_2 .s2 span {
+    margin-top: 12px;
+    margin-left: -172px;
+    text-align: center;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.0366516px;
+    text-transform: uppercase;
+    color: #FF7E03;
+}
+
+.block_2 .s3 span {
+    margin-top: 9px;
+    margin-left: -170px;
+    text-align: center;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.0366516px;
+    text-transform: uppercase;
+    color: #FF7E03;
+}
+
+
+.block_2 .s1 div {
+    margin-top: 20px;
+    margin-left: -86px;
+    text-align: left;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.0326923px;
+    color: #4A4A4A;
+}
+
+.block_2 .s2 div {
+    margin-top: 21px;
+    margin-left: -75px;
+    text-align: left;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.0326923px;
+    color: #4A4A4A;
+}
+
+.block_2 .s3 div {
+    margin-top: 23px;
+    margin-left: -86px;
+    text-align: left;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.0326923px;
+    color: #4A4A4A;
+}
+
+
+.block_3 {
+    margin-top: 44px;
+    background-color: rgba(53, 53, 53, 1);
+}
+
+.block_3 .header {
+    height: min-content;
+    position: absolute;
+    top: 54px;
+    left: 130px;
+    width: 1181px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_3 .header button {
+    margin-top: -6px;
+    width: 146px;
+    height: 46px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4A4A4A;
+    background-color: white;
+}
+
+.block_3 .title {
+    margin-left: 32px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.block_3 .header button {
+    margin-top: -2px;
+    width: 146px;
+    height: 46px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(53, 53, 53, 1);
+    border: 1px solid white;
+}
+
+.block_3 .central_text {
+    display: flex;
+    height: 504px;
+    width: 1178px;
+    border: 1px solid white;
+    position: absolute;
+    top: 178px;
+    left: 130px;
+}
+.block_3 .central_text .left {
+    height: 100%;
+    margin-left: 67px;
+}
+.block_3 .central_text .right {
+    height: 100%;
+    margin-left: 67px;
+}
+
+.block_3 .where{
+    margin-top: 16px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.block_3 .office{
+    margin-top: 33px;
+    margin-left: 2px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.0326923px;
+
+    color: #FFFFFF;
+}
+.block_3 .learnup{
+    margin-top: 5px;
+    margin-left: 3px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: -0.0326923px;
+
+    color: #FFFFFF;
+}
+.block_3 .sloboda{
+    margin-top: 11px;
+    margin-left: 29px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.0326923px;
+
+    color: #FFFFFF;
+}
+.block_3 .when{
+    margin-top: 48px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.block_3 .december{
+    margin-top: 30px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 13.2778px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.block_3 .year{
+    margin-top: -23px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 121px;
+    /* identical to box height */
+
+    letter-spacing: -0.0871795px;
+
+    color: #FFFFFF;
+}
+
+
+.block_4 .header {
+    height: min-content;
+    position: absolute;
+    top: 57px;
+    left: 130px;
+    width: 1181px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_4 .date {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 36px;
+    /* identical to box height, or 189% */
+
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #4A4A4A;
+}
+.block_4 .header .title {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: 6px;
+
+    color: #4A4A4A;
+    text-transform: uppercase;
+}
+
+.block_4 .header button {
+    margin-top: -2px;
+    width: 146px;
+    height: 46px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(53, 53, 53, 1);
+    border: 1px solid white;
+}
+
