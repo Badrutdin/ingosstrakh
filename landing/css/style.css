@@ -9,7 +9,7 @@ body {
 
 
 #main_content {
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     height: min-content;
     width: min-content;
 }
@@ -164,7 +164,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 
 
 .block_2 .header button {
@@ -397,16 +396,18 @@ body {
     top: 178px;
     left: 130px;
 }
+
 .block_3 .central_text .left {
     height: 100%;
     margin-left: 67px;
 }
+
 .block_3 .central_text .right {
     height: 100%;
-    margin-left: 67px;
+    margin-left: 288px;
 }
 
-.block_3 .where{
+.block_3 .left .where {
     margin-top: 16px;
     font-family: Fira Sans;
     font-style: normal;
@@ -418,7 +419,8 @@ body {
 
     color: #FFFFFF;
 }
-.block_3 .office{
+
+.block_3 .left .office {
     margin-top: 33px;
     margin-left: 2px;
     font-family: Fira Sans;
@@ -430,7 +432,8 @@ body {
 
     color: #FFFFFF;
 }
-.block_3 .learnup{
+
+.block_3 .left .learnup {
     margin-top: 5px;
     margin-left: 3px;
     font-family: Fira Sans;
@@ -442,7 +445,8 @@ body {
 
     color: #FFFFFF;
 }
-.block_3 .sloboda{
+
+.block_3 .left .sloboda {
     margin-top: 11px;
     margin-left: 29px;
     font-family: Fira Sans;
@@ -454,7 +458,8 @@ body {
 
     color: #FFFFFF;
 }
-.block_3 .when{
+
+.block_3 .left .when {
     margin-top: 48px;
     font-family: Fira Sans;
     font-style: normal;
@@ -466,7 +471,8 @@ body {
 
     color: #FFFFFF;
 }
-.block_3 .december{
+
+.block_3 .left .december {
     margin-top: 30px;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -478,7 +484,8 @@ body {
 
     color: #FFFFFF;
 }
-.block_3 .year{
+
+.block_3 .left .year {
     margin-top: -23px;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -492,6 +499,74 @@ body {
     color: #FFFFFF;
 }
 
+.block_3 .right .about {
+    margin-top: 17px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.block_3 .right .duration {
+    margin-top: 32px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+
+    letter-spacing: -0.0326923px;
+
+    color: #FFFFFF;
+}
+
+.block_3 .right .comprises {
+    margin-top: 12px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+
+    letter-spacing: -0.0326923px;
+
+    color: #FFFFFF;
+}
+
+.block_3 .right .cost {
+    margin-top: 178px;
+    margin-left: -1px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 17.7778px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.block_3 .right .free {
+    margin-top: -23px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 121px;
+    /* identical to box height */
+
+    letter-spacing: -0.0871795px;
+
+    color: #FFFFFF;
+}
 
 .block_4 .header {
     height: min-content;
@@ -516,6 +591,7 @@ body {
 
     color: #4A4A4A;
 }
+
 .block_4 .header .title {
     font-family: Fira Sans;
     font-style: normal;
