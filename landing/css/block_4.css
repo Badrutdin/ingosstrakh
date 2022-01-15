@@ -1,0 +1,91 @@
+.block_4 .date {
+    color: #4A4A4A;
+}
+.block_4 header .text {
+    font-family: Fira Sans;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 6px;
+    color: #4A4A4A;
+    text-transform: uppercase;
+}
+
+.speakers {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 137px;
+    margin-left: 185px;
+    height: min-content;
+    width: 472px;
+}
+.speakers p {
+    line-height: 27px;
+}
+.speakers .description {
+    background: rgba(248, 248, 248, 0.8);
+    width: 459px;
+    margin-top: -145px;
+    margin-left: -60px;
+    height: 270px;
+}
+.speakers .description .info {
+    margin-left: 50px;
+    padding-top: 40px;
+}
+.speakers .left img {
+    padding-left: 190px;
+}
+.speakers .left .description {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    letter-spacing: -0.0461539px;
+}
+
+
+.speakers .right {
+    margin-left: 77px;
+}
+.speakers .right .description {
+    text-align: right;
+    margin-left: 95px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    letter-spacing: -0.0461539px;
+}
+.speakers .right .info {
+    margin-right: 50px;
+}
+.speakers .right p {
+    text-align: left;
+}
+
+
+
+.speakers .f_name {
+    font-size: 24px;
+}
+.speakers .s_name {
+    font-size: 34px;
+    font-weight: bold;
+}
+.block_4 .hands {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 380px;
+    z-index: -1;
+    width: 100%;
+}
+.block_4 .right_hand {
+    transform: scale(-1, 1);
+}
+
+.block_4 .reg_btn {
+    position: absolute;
+    left: 43.54%;
+    right: 43.54%;
+    top: 82.37%;
+    bottom: 9.32%;
+    font-size: 17px;
+}

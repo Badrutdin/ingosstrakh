@@ -1,0 +1,70 @@
+.block_5 {
+    background-color: #fc6f5c;
+    background-image: linear-gradient(43deg, #fc6f5c 0%, #faa235 46%, #fb923b 100%);
+}
+
+.block_5 header .text {
+    font-family: Fira Sans;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 6px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.block_5 .date {
+    color: white;
+}
+.block_5 .central_text  {
+    color: white;
+    width: 1170px;
+    position: absolute;
+    top: 226px;
+}
+.block_5 .central_text .text {
+    margin-left: 370px;
+    width: 700px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: justify;
+}
+.block_5 .central_text .actions {
+    margin-top: 105px;
+    margin-left: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.block_5 .central_text .actions .action_header {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+.block_5 .central_text .actions .action_text {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height, or 126% */
+
+    letter-spacing: -0.0365385px;
+}
+.block_5 .reg_btn {
+    position: absolute;
+    left: 43.54%;
+    right: 43.54%;
+    top: 82.37%;
+    bottom: 9.32%;
+    font-size: 17px;
+}
+
+
+

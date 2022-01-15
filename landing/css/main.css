@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&family=Open+Sans:wght@700&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Source+Sans+Pro&display=swap');
+@import url("block_1.css");
+@import url("block_2.css");
+@import url("block_3.css");
+@import url("block_4.css");
+@import url("block_5.css");
+@import url("block_6.css");
+
+body {
+    margin: 0;
+}
+
+
+
+#main_content {
+    margin: 0 auto;
+    height: min-content;
+    width: min-content;
+}
+
+.block {
+    width: 1440px;
+    height: 794px;
+    position: relative;
+    /*border: 1px solid yellow;*/
+
+}
+
+.block header {
+    height: min-content;
+    position: absolute;
+    top: 57px;
+    left: 130px;
+    width: 1183px;
+    display: flex;
+    justify-content: space-between;
+}
+.block .date {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 36px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.reg_btn {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.block .reg_btn {
+    width: 186px;
+}
+
+.block header .reg_btn {
+    height: 46px;
+    margin-top: -6px;
+    width: 146px;
+
+}
+
+.reg_btn.light {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+
+}
+.reg_btn.orange {
+    color: white;
+    background-color: rgba(255, 126, 3, 1);
+    border: 1px solid black;
+
+}
+
+.reg_btn.dark {
+    color: white;
+    background-color: rgba(53, 53, 53, 1);
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+js-control--suggest--list custom-scroll at-top suggest-list-field control--suggest--list-opened
+js-control--suggest--list custom-scroll suggest-list-field control--suggest--list-opened
+
+
+
+
+
