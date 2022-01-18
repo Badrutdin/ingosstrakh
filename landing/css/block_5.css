@@ -3,14 +3,7 @@
     background-image: linear-gradient(43deg, #fc6f5c 0%, #faa235 46%, #fb923b 100%);
 }
 
-.block_5 header .text {
-    font-family: Fira Sans;
-    font-size: 36px;
-    line-height: 36px;
-    letter-spacing: 6px;
-    color: white;
-    text-transform: uppercase;
-}
+
 
 .block_5 .date {
     color: white;
@@ -56,14 +49,6 @@
     /* identical to box height, or 126% */
 
     letter-spacing: -0.0365385px;
-}
-.block_5 .reg_btn {
-    position: absolute;
-    left: 43.54%;
-    right: 43.54%;
-    top: 82.37%;
-    bottom: 9.32%;
-    font-size: 17px;
 }
 
 

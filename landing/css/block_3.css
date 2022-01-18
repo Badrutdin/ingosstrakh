@@ -1,26 +1,10 @@
 .block_3 {
     margin-top: 44px;
     background-color: rgba(53, 53, 53, 1);
-}
-
-
-.block_3 .text {
-    margin-left: 32px;
+    color: #FFFFFF;
     font-family: Fira Sans;
     font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 36px;
-    text-align: center;
-    letter-spacing: 6px;
-    color: white;
-    text-transform: uppercase;
 }
-
-.block_3 header .reg_btn {
-
-}
-
 .block_3 .central_text {
     display: flex;
     height: 504px;
@@ -30,12 +14,10 @@
     top: 178px;
     left: 130px;
 }
-
 .block_3 .central_text .left {
     height: 100%;
     margin-left: 67px;
 }
-
 .block_3 .central_text .right {
     height: 100%;
     margin-left: 288px;
@@ -43,161 +25,99 @@
 
 .block_3 .left .where {
     margin-top: 16px;
-    font-family: Fira Sans;
-    font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 58px;
-    /* identical to box height */
-
-
-    color: #FFFFFF;
 }
-
 .block_3 .left .office {
     margin-top: 33px;
     margin-left: 2px;
-    font-family: Fira Sans;
-    font-style: normal;
+
     font-weight: normal;
     font-size: 17px;
     line-height: 20px;
-    letter-spacing: -0.0326923px;
-
-    color: #FFFFFF;
 }
 
 .block_3 .left .learnup {
     margin-top: 5px;
     margin-left: 3px;
-    font-family: Fira Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 43px;
-    letter-spacing: -0.0326923px;
-
-    color: #FFFFFF;
 }
 
 .block_3 .left .sloboda {
     margin-top: 11px;
-    margin-left: 29px;
-    font-family: Fira Sans;
-    font-style: normal;
     font-weight: normal;
     font-size: 17px;
     line-height: 20px;
-    letter-spacing: -0.0326923px;
-
-    color: #FFFFFF;
 }
+.block_3 .left .sloboda img{
+    width: 18px;
+    margin-right: 8px;
+}
+
 
 .block_3 .left .when {
     margin-top: 48px;
-    font-family: Fira Sans;
-    font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 58px;
-    /* identical to box height */
-
-
-    color: #FFFFFF;
 }
 
 .block_3 .left .december {
     margin-top: 30px;
     font-family: Source Sans Pro;
-    font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 40px;
     letter-spacing: 13.2778px;
     text-transform: uppercase;
-
-    color: #FFFFFF;
 }
 
 .block_3 .left .year {
     margin-top: -23px;
     font-family: Source Sans Pro;
-    font-style: normal;
     font-weight: bold;
     font-size: 96px;
     line-height: 121px;
-    /* identical to box height */
-
-    letter-spacing: -0.0871795px;
-
-    color: #FFFFFF;
 }
 
 .block_3 .right .about {
     margin-top: 17px;
-    font-family: Fira Sans;
-    font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 58px;
-    /* identical to box height */
-
-
-    color: #FFFFFF;
 }
 
 .block_3 .right .duration {
     margin-top: 32px;
-    font-family: Fira Sans;
-    font-style: normal;
     font-weight: normal;
     font-size: 17px;
     line-height: 24px;
-    /* or 141% */
-
-    letter-spacing: -0.0326923px;
-
-    color: #FFFFFF;
 }
 
 .block_3 .right .comprises {
     margin-top: 12px;
-    font-family: Fira Sans;
-    font-style: normal;
     font-weight: normal;
     font-size: 17px;
     line-height: 24px;
-    /* or 141% */
-
-    letter-spacing: -0.0326923px;
-
-    color: #FFFFFF;
 }
 
 .block_3 .right .cost {
     margin-top: 178px;
     margin-left: -1px;
     font-family: Source Sans Pro;
-    font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 40px;
     letter-spacing: 17.7778px;
     text-transform: uppercase;
-
-    color: #FFFFFF;
 }
-
 .block_3 .right .free {
     margin-top: -23px;
     font-family: Source Sans Pro;
-    font-style: normal;
     font-weight: bold;
     font-size: 96px;
     line-height: 121px;
-    /* identical to box height */
-
-    letter-spacing: -0.0871795px;
-
-    color: #FFFFFF;
 }

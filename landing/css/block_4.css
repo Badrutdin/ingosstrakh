@@ -1,14 +1,7 @@
 .block_4 .date {
     color: #4A4A4A;
 }
-.block_4 header .text {
-    font-family: Fira Sans;
-    font-size: 36px;
-    line-height: 36px;
-    letter-spacing: 6px;
-    color: #4A4A4A;
-    text-transform: uppercase;
-}
+
 
 .speakers {
     position: absolute;
@@ -81,11 +74,3 @@
     transform: scale(-1, 1);
 }
 
-.block_4 .reg_btn {
-    position: absolute;
-    left: 43.54%;
-    right: 43.54%;
-    top: 82.37%;
-    bottom: 9.32%;
-    font-size: 17px;
-}

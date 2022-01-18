@@ -12,20 +12,15 @@
 body {
     margin: 0;
 }
-
-
-
 #main_content {
     margin: 0 auto;
     height: min-content;
     width: min-content;
 }
-
 .block {
     width: 1440px;
     height: 794px;
     position: relative;
-    /*border: 1px solid yellow;*/
 
 }
 
@@ -38,6 +33,25 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.block > header .text {
+    margin-left: 32px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.block > header .text.dark {
+    color: #4A4A4A;
+}
+.block > header .text.light {
+    color: #FFFFFF;
+}
+
 .block .date {
     font-family: Source Sans Pro;
     font-style: normal;
@@ -56,28 +70,29 @@ body {
     font-weight: 800;
 }
 
-.block .reg_btn {
+.reg_btn.block_btn {
     width: 186px;
+    position: absolute;
+    left: 43.54%;
+    right: 43.54%;
+    top: 82.37%;
+    bottom: 9.32%;
+    font-size: 17px;
 }
-
-.block header .reg_btn {
+.reg_btn.head_btn {
     height: 46px;
     margin-top: -6px;
     width: 146px;
-
 }
-
 .reg_btn.light {
     color: black;
     background-color: white;
     border: 1px solid black;
-
 }
 .reg_btn.orange {
     color: white;
     background-color: rgba(255, 126, 3, 1);
     border: 1px solid black;
-
 }
 
 .reg_btn.dark {
@@ -87,13 +102,6 @@ body {
 }
 
 
-
-
-
-
-
-js-control--suggest--list custom-scroll at-top suggest-list-field control--suggest--list-opened
-js-control--suggest--list custom-scroll suggest-list-field control--suggest--list-opened
 
 
 

@@ -1,11 +1,4 @@
-.block_6 header .text {
-    font-family: Fira Sans;
-    font-size: 36px;
-    line-height: 36px;
-    letter-spacing: 6px;
-    color: #4A4A4A;
-    text-transform: uppercase;
-}
+
 
 .block_6 .central_text  {
     display: flex;

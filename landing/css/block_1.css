@@ -23,7 +23,6 @@
     width: 1057px;
     display: flex;
     justify-content: space-between;
-
 }
 .block_1 .ios {
     width: 94px;
@@ -48,7 +47,6 @@
     margin-left: 9px;
     text-align: center;
     display: inline-block;
-
 }
 .block_1 .central_text {
     top: 372px;
@@ -84,12 +82,4 @@
     font-size: 36px;
     text-align: center;
     letter-spacing: 0.37em;
-}
-.block_1 .reg_btn {
-    position: absolute;
-    left: 43.54%;
-    right: 43.54%;
-    top: 82.37%;
-    bottom: 9.32%;
-    font-size: 17px;
 }
