@@ -1,23 +1,23 @@
-@font-face {
-  font-family: 'Ogg';
-  src: url('../src/fonts/Ogg-Regular.woff');
-  src: local('☺'), url('../src/fonts/Ogg-Regular.woff') format('woff'), url('../src/fonts/Ogg-Regular.ttf') format('truetype'), url('../src/fonts/Ogg-Regular.svg') format('svg');
-  font-weight: 400;
-  font-style: normal;
+@mixin font($name, $filename, $style: normal, $weight: normal) {
+  @font-face {
+    font-family: $name;
+    src: url("fonts/#{$filename}.eot");
+    src: url("fonts/#{$filename}.eot?#iefix")format("embedded-opentype"),
+    url("fonts/#{$filename}.woff2") format("woff2"),
+    url("fonts/#{$filename}.woff") format("woff"),
+    url("fonts/#{$filename}.ttf") format("truetype");
+    font-style: $style;
+    font-weight: $weight;
+    font-display: swap;
+  }
 }
-
-@font-face {
-  font-family: 'Ogg';
-  src: url('../src/fonts/Ogg-Medium.woff');
-  src: local('☺'), url('../src/fonts/Ogg-Medium.woff') format('woff'), url('../src/fonts/Ogg-Medium.ttf') format('truetype'), url('../src/fonts/Ogg-Medium.svg') format('svg');
-  font-weight: 500;
-  font-style: normal;
-}
+@include font('Ogg', 'Ogg-Regular', normal, normal);
+@include font('Ogg', 'Ogg-Regular', normal, 500);
 *{
   transition: .1s ease-in-out;
 }
 body {
-  font-family: Ogg;
+  font-family: Ogg, serif;
   background-color: #E5E5E5;
 }
 
@@ -67,62 +67,13 @@ img {
       background: url("../src/images/button-bg.png");
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: .1px  black;
+
     }
   }
 }
-
-.block-2 {
-  background: linear-gradient(241.95deg, #FFFFFF 0.5%, rgba(255, 255, 255, 0) 80.8%), rgba(234, 193, 191, 0.64);
-
-  .content {
-    padding: 150px 0;
-  }
-
-  &__left {
-    max-width: 468px;
-    font-size: 48px;
-    line-height: 68px;
-
-    button {
-      color: #FFFFFF;
-      background-color: #000000;
-      width: 190px;
-      height: 48px;
-      border-radius: 32px;
-    }
-  }
-}
-
-.block-3 {
-  .content {
-    padding: 150px 0;
-  }
-
-  &__left {
-    .crystals {
-      max-width: 580px;
-      position: relative;
-
-      button {
-        position: absolute;
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-    }
-
-    button {
-      text-transform: uppercase;
-      border: none;
-      background: rgba(255, 255, 255, 0.8);
-      border-radius: 32px;
-      width: 190px;
-      height: 48px;
-    }
-  }
-
-  &__description-item {
+.description{
+  &__item {
     text-align: center;
     max-width: 230px;
     display: flex;
@@ -151,7 +102,56 @@ img {
     }
   }
 }
+.block-2 {
+  background: linear-gradient(241.95deg, #FFFFFF 0.5%, rgba(255, 255, 255, 0) 80.8%), rgba(234, 193, 191, 0.64);
 
+  .content {
+    padding: 150px 0;
+  }
+
+  .left {
+    max-width: 468px;
+    font-size: 48px;
+    line-height: 68px;
+
+    button {
+      color: #FFFFFF;
+      background-color: #000000;
+      width: 190px;
+      height: 48px;
+      border-radius: 32px;
+    }
+  }
+}
+
+.block-3 {
+  .content {
+    padding: 150px 0;
+  }
+  .left {
+    .crystals {
+      max-width: 580px;
+      position: relative;
+
+      button {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    button {
+      text-transform: uppercase;
+      border: none;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 32px;
+      width: 190px;
+      height: 48px;
+    }
+  }
+
+}
 
 .block-4 {
   .list-title {
@@ -160,7 +160,7 @@ img {
     text-transform: uppercase;
   }
 
-  &__left {
+  .left {
     button {
       border: none;
       background-image: url("../src/images/button-bg.png");
@@ -174,7 +174,6 @@ img {
     }
   }
 }
-
 
 .block-5 {
   background-color: #FBF9F9;
@@ -273,7 +272,7 @@ img {
     padding: 100px 0;
   }
 
-  &__left {
+  .left {
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -511,6 +510,7 @@ $header-padding:50px;
   }
 
 }
+
 .item-list {
   display: flex;
   justify-content: space-between;
@@ -523,6 +523,7 @@ $header-padding:50px;
 
   }
 }
+
 .labels{
   position: relative;
   .image{
